@@ -11,11 +11,11 @@
     <meta name="keywords" content="HTML, CSS, JavaScript, php, laravel, jquery">
     <meta name="author" content="Marvin C. Tejol">
     <link rel="stylesheet" href="style.css">
- 	<title> Register </title>
+ 	<title> About </title>
 
  </head>
 
- <body>
+ <body class="main-body">
     <nav class="navigation-bar">
         <img src="assets/logo.png">
         <ul> 
@@ -37,20 +37,16 @@
             <h1> Responsive layouts don't<br> have to be a struggle</h1>
 
         </section>
-        <section class="cards">  
-            <div class="card">
-                <img src="assets/rand1.jpg"/>
-                <p>Old Temple</p>
-            </div>
-            <div class="card">
-                <img src="assets/rand2.jpg"/>
-                <p>Bongeunsa</p>
-            </div>
-            <div class="card">
-                <img src="assets/rand3.jpg"/>
-                <p>Nami Island</p>
-            </div>
+        <section class="about-us">
+            <h1>About Us</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat. Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam velit eros, dapibus eget porta in, lacinia et magna. Nam eget eros non orci consectetur congue at ac augue. Proin eget arcu in enim feugiat ultricies. Curabitur maximus metus nec metus pretium viverra at et orci. Integer hendrerit ante ut placerat cursus.
+            </p>
+            <p class="dark">
+                Aliquam eget pharetra diam. Nulla placerat lorem at turpis tempor, vel ultrices dui tincidunt. Proin quis egestas lorem. Mauris vehicula lectus odio, sit amet dictum justo feugiat a. Praesent id dictum lacus. Sed ullamcorper id erat ut dictum. Fusce porttitor lorem sapien, in aliquet sapien convallis et. Donec nec mauris nulla. Curabitur cursus semper odio, et hendrerit ante. Nunc at cursus ante. Maecenas gravida ligula ut efficitur suscipit. Nulla id turpis varius, pretium nunc sed, fermentum sem. Sed lacinia nunc non interdum pellentesque.
+            </p>
         </section>
+        
     </div>
     
 
@@ -59,7 +55,7 @@
 
         <p class="footer-links">
             <a href="#">Home</a>
-            <a href="about.php">About</a>
+            <a href="#">About</a>
             <a href="#">Contact Us</a>
         </p>
         <br>
